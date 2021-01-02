@@ -11,13 +11,15 @@ public class PrimeNumber {
         for(int k=2; k<n; k++){
             if(n%k == 0){
                 count ++;
+                break;
             }
+            System.out.println(k);
         }
 
         if(count == 0){
-            System.out.println(n + "is prime!");
+            System.out.println(n + "is Prime Number!");
         }else{
-            System.out.println(n + "is no prime");
+            System.out.println(n + "is Not Prime Number");
         }
     }
 }

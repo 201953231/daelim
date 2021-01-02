@@ -15,9 +15,9 @@ public class PrimeNumber {
         }
 
         if(count == 2){
-            System.out.println(n + "은 소수!");
+            System.out.println(n + "is true!");
         }else{
-            System.out.println(n + "은 소수가 아닙니다.");
+            System.out.println(n + "is fales");
         }
     }
 }

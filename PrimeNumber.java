@@ -8,16 +8,16 @@ public class PrimeNumber {
 
         int count  = 0;
 
-        for(int k=1; k<=n; k++){
+        for(int k=2; k<n; k++){
             if(n%k == 0){
                 count ++;
             }
         }
 
-        if(count == 2){
-            System.out.println(n + "is true!");
+        if(count == 0){
+            System.out.println(n + "is prime!");
         }else{
-            System.out.println(n + "is fales");
+            System.out.println(n + "is no prime");
         }
     }
 }
